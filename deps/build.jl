@@ -36,4 +36,3 @@ if platform_key() in keys(download_info)
 else
     error("Your platform $(Sys.MACHINE) is not recognized, we cannot install Sundials")
 end
-
